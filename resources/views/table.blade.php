@@ -24,7 +24,7 @@
                                 <td colspan="3">No content.</td>
                             </tr>
                             @else
-                            @foreach($users as user)
+                            @foreach($users as $user)
                             <tr>
                                 <td>{{ $user->name }}</td>
                                 <td>{{ $user->email }}</td>
