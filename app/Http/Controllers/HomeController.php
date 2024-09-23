@@ -19,7 +19,7 @@ class HomeController extends Controller
     public function alert()
     {
         $text = '<script>alert("I am a security alert, your task is to remove me.");</script>';
-
+        //this task solutions is on resources/views/alert
         return view('alert', compact('text'));
     }
 
