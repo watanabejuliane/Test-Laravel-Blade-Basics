@@ -1,4 +1,4 @@
-@extends('layout.main')
+@extends('layouts.main')
 @section('content')
 {{-- <x-app-layout> --}}
     <div class="py-12">
